@@ -1,1 +1,66 @@
-/target/
+
+# ============================
+# OS-specific junk files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Eclipse / IntelliJ / VS Code
+# ============================
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# ============================
+# Maven build output
+# ============================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ============================
+# Test Reports and Logs
+# ============================
+reports/
+test-output/
+allure-results/
+allure-report/
+logs/
+log/
+*.log
+
+# ============================
+# Screenshots and temp files
+# ============================
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# ============================
+# OS or environment files
+# ============================
+*.swp
+*.swo
+*.tmp
+~$*
+
+# ============================
+# Java-specific
+# ============================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ============================
+# Misc
+# ============================
+*.bak
+*.old
+*.orig
